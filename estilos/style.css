@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* Mobile First*/
+
+*{
+
+    padding: 0px;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    background-color: rgb(206, 25, 61);
+
+}
+
+main
+{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+article#login{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 7px;
+    overflow: hidden;
+
+    width:250px;
+    height: 500px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+
+}
+
+article#login > div#img{
+    display: block;
+    background-image:  url(../imagens/Wallpaper\ 4K\ Gif\ Trick.gif);
+    background-size: cover;
+    height: 175px;
+    box-shadow: 1px 1px  1px solid black;
+}
+
+article#login > div#form{
+
+    padding: 5px;
+    display:block;
+}
