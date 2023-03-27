@@ -1,11 +1,58 @@
 @charset "UTF-8";
 
-@media screen and (min-width:930px) {
-    article#login > div#img{
-        display: grid;
-    background-image:  url(../imagens/Wallpaper\ 4K\ Gif\ Trick.gif);
-    background-size: cover;
-    height: 175px;
-    box-shadow: 1px 1px  1px solid black
+@media screen and (min-width:768px) and (max-width:931px)  { /*Tablets*/
+
+    body{
+        background-image: linear-gradient( to top,#DD5D76,#47B4DE);
+
     }
+
+    article#login {
+
+        width: 80vw;
+        height: 60vh;
+
+    }
+
+    article#login > div#img{
+        float: left;
+        width:30%;
+        height: 100%;
+
+    }
+
+    article#login > div#form{
+
+        float: right;
+        width:70%;
+        
+    }
+}
+
+@media  screen and (min-width:931px) and (max-width:1200px) { /* Desktop*/
+
+    body{
+        background-image: linear-gradient( to top,#DD5D76,#47B4DE);
+
+    }
+
+    article#login{
+
+        width: 85vw;
+        
+    }
+
+    article#login > div#img{
+        float: left;
+        width:50%;
+        height: 100%;
+
+    }
+    article#login > div#form{
+
+        float: left;
+        width:50%;
+
+    }
+    
 }
