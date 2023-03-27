@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) and (max-width:931px)  { /*Tablets*/
+@media screen and (min-width:768px) and (max-width:930px)  { /*Tablets*/
 
     body{
         background-image: linear-gradient( to top,#DD5D76,#47B4DE);
@@ -27,9 +27,10 @@
         width:70%;
         
     }
+
 }
 
-@media  screen and (min-width:931px) and (max-width:1200px) { /* Desktop*/
+@media  screen and (min-width:930px) and (max-width:1200px) { /* Desktop*/
 
     body{
         background-image: linear-gradient( to top,#DD5D76,#47B4DE);
@@ -52,6 +53,12 @@
 
         float: left;
         width:50%;
+
+    }
+
+        div#form > p{
+            font-size:1.2em;
+
 
     }
     
